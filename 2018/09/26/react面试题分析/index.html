@@ -43,7 +43,7 @@
     
     <title>
         
-            react 16.3-16.4Api更新 | 
+            react面试题分析 | 
         
         Hexo
     </title>
@@ -220,7 +220,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Hexo">
-    <meta name="msapplication-starturl" content="https://Eplayed.github.io/Max.github.io/2018/07/28/react-16-3-16-4Api更新/">
+    <meta name="msapplication-starturl" content="https://Eplayed.github.io/Max.github.io/2018/09/26/react面试题分析/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Hexo">
@@ -235,16 +235,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://Eplayed.github.io/Max.github.io/2018/07/28/react-16-3-16-4Api更新/">
+    <meta property="og:url" content="https://Eplayed.github.io/Max.github.io/2018/09/26/react面试题分析/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="react 16.3-16.4Api更新 | Hexo">
+    <meta property="og:title" content="react面试题分析 | Hexo">
     <meta property="og:image" content="/Max.github.io/img/favicon.png">
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Sat Jul 28 2018 09:18:00 GMT+0800">
-        <meta property="article:modified_time" content="Tue Sep 04 2018 09:24:34 GMT+0800">
+        <meta property="article:published_time" content="Wed Sep 26 2018 21:38:47 GMT+0800">
+        <meta property="article:modified_time" content="Wed Sep 26 2018 21:42:45 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -252,7 +252,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://Eplayed.github.io/Max.github.io/2018/07/28/react-16-3-16-4Api更新/index.html" />
+        <link rel="canonical" href="https://Eplayed.github.io/Max.github.io/2018/09/26/react面试题分析/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -264,10 +264,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "https://Eplayed.github.io/Max.github.io/2018/07/28/react-16-3-16-4Api更新/index.html",
-    "headline": "react 16.3-16.4Api更新",
-    "datePublished": "Sat Jul 28 2018 09:18:00 GMT+0800",
-    "dateModified": "Tue Sep 04 2018 09:24:34 GMT+0800",
+    "mainEntityOfPage": "https://Eplayed.github.io/Max.github.io/2018/09/26/react面试题分析/index.html",
+    "headline": "react面试题分析",
+    "datePublished": "Wed Sep 26 2018 21:38:47 GMT+0800",
+    "dateModified": "Wed Sep 26 2018 21:42:45 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Max Zhang",
@@ -351,7 +351,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#16-3"><span class="post-toc-number">1.</span> <span class="post-toc-text">16.3</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#componentDidMount"><span class="post-toc-number">2.</span> <span class="post-toc-text">componentDidMount</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#getDerivedStateFromProps-new"><span class="post-toc-number">3.</span> <span class="post-toc-text">getDerivedStateFromProps() *new</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#getSnapshotBeforeUpdate-new"><span class="post-toc-number">4.</span> <span class="post-toc-text">getSnapshotBeforeUpdate() *new</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#生命周期函数详解"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">生命周期函数详解</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-constructor-props"><span class="post-toc-number">4.1.1.</span> <span class="post-toc-text">1. constructor(props)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-static-getDerivedStateFromProps-nextProps-prevState"><span class="post-toc-number">4.1.2.</span> <span class="post-toc-text">2. static getDerivedStateFromProps(nextProps, prevState)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-componentWillMount-UNSAFE-componentWillMount"><span class="post-toc-number">4.1.3.</span> <span class="post-toc-text">3. componentWillMount() / UNSAFE_componentWillMount()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-render"><span class="post-toc-number">4.1.4.</span> <span class="post-toc-text">4. render()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-componentWillReceiveProps-UNSAFE-componentWillReceiveProps-nextProps"><span class="post-toc-number">4.1.5.</span> <span class="post-toc-text">5. componentWillReceiveProps()/UNSAFE_componentWillReceiveProps(nextProps)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-shouldComponentUpdate-nextProps-nextState"><span class="post-toc-number">4.1.6.</span> <span class="post-toc-text">6. shouldComponentUpdate(nextProps, nextState)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#7-UNSAFE-componentWillUpdate-nextProps-nextState"><span class="post-toc-number">4.1.7.</span> <span class="post-toc-text">7.UNSAFE_componentWillUpdate(nextProps, nextState)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#8-getSnapshotBeforeUpdate"><span class="post-toc-number">4.1.8.</span> <span class="post-toc-text">8.getSnapshotBeforeUpdate()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#9-componentDidUpdate-prevProps-prevState-snapshot"><span class="post-toc-number">4.1.9.</span> <span class="post-toc-text">9.componentDidUpdate(prevProps, prevState, snapshot)</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#10-componentWillUnmount"><span class="post-toc-number">4.1.10.</span> <span class="post-toc-text">10.componentWillUnmount()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#11-componentDidCatch-error-info"><span class="post-toc-number">4.1.11.</span> <span class="post-toc-text">11.componentDidCatch(error, info)</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#ContextApi"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">ContextApi</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#调用-setState-之后发生了什么？"><span class="post-toc-number">1.</span> <span class="post-toc-text">调用 setState 之后发生了什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#eact-中-Element-与-Component-的区别是？"><span class="post-toc-number">2.</span> <span class="post-toc-text">eact 中 Element 与 Component 的区别是？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#在什么情况下你会优先选择使用-Class-Component-而不是-Functional-Component？"><span class="post-toc-number">3.</span> <span class="post-toc-text">在什么情况下你会优先选择使用 Class Component 而不是 Functional Component？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#React-中-refs-的作用是什么？"><span class="post-toc-number">4.</span> <span class="post-toc-text">React 中 refs 的作用是什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#React-中-keys-的作用是什么？"><span class="post-toc-number">5.</span> <span class="post-toc-text">React 中 keys 的作用是什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？"><span class="post-toc-number">6.</span> <span class="post-toc-text">如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Controlled-Component-与-Uncontrolled-Component-之间的区别是什么？"><span class="post-toc-number">7.</span> <span class="post-toc-text">Controlled Component 与 Uncontrolled Component 之间的区别是什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#在生命周期中的哪一步你应该发起-AJAX-请求？"><span class="post-toc-number">8.</span> <span class="post-toc-text">在生命周期中的哪一步你应该发起 AJAX 请求？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#shouldComponentUpdate-的作用是啥以及为何它这么重要？"><span class="post-toc-number">9.</span> <span class="post-toc-text">shouldComponentUpdate 的作用是啥以及为何它这么重要？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#如何告诉-React-它应该编译生产环境版本？"><span class="post-toc-number">10.</span> <span class="post-toc-text">如何告诉 React 它应该编译生产环境版本？</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#undefined"><span class="post-toc-number"></span> <span class="post-toc-text">Welcome.</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述下-React-中的事件处理逻辑"><span class="post-toc-number">1.</span> <span class="post-toc-text">概述下 React 中的事件处理逻辑</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#createElement-与-cloneElement-的区别是什么？"><span class="post-toc-number">2.</span> <span class="post-toc-text">createElement 与 cloneElement 的区别是什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#传入-setState-函数的第二个参数的作用是什么？"><span class="post-toc-number">3.</span> <span class="post-toc-text">传入 setState 函数的第二个参数的作用是什么？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#下述代码有错吗？"><span class="post-toc-number">4.</span> <span class="post-toc-text">下述代码有错吗？</span></a></li></ol>
     </ul>
     
 
@@ -383,7 +383,7 @@
         
     
             <p class="article-headline-p">
-                react 16.3-16.4Api更新
+                react面试题分析
             </p>
         </div>
 
@@ -402,7 +402,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Max Zhang</strong>
-        <span>7月 28, 2018</span>
+        <span>9月 26, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -449,7 +449,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Hexo&title=react 16.3-16.4Api更新&summary=&pics=https://Eplayed.github.io/img/favicon.png&url=https://Eplayed.github.io/Max.github.io/2018/07/28/react-16-3-16-4Api更新/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Hexo&title=react面试题分析&summary=&pics=https://Eplayed.github.io/img/favicon.png&url=https://Eplayed.github.io/Max.github.io/2018/09/26/react面试题分析/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -468,200 +468,150 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="16-3"><a href="#16-3" class="headerlink" title="16.3"></a>16.3</h1><!-- TOC -->
-<ul>
-<li><a href="#163">16.3</a></li>
-<li><a href="#componentdidmount">componentDidMount</a></li>
-<li><a href="#getderivedstatefromprops-font-colorgreenewfont">getDerivedStateFromProps() <font color="gree">*new</font></a></li>
-<li><a href="#getsnapshotbeforeupdate-font-colorgreenewfont">getSnapshotBeforeUpdate() <font color="gree">*new</font></a><ul>
-<li><a href="#生命周期函数详解">生命周期函数详解</a><ul>
-<li><a href="#1-constructorprops">1. constructor(props)</a></li>
-<li><a href="#2-static-getderivedstatefrompropsnextprops-prevstate">2. static getDerivedStateFromProps(nextProps, prevState)</a></li>
-<li><a href="#3-componentwillmount--unsafe_componentwillmount">3. componentWillMount() / UNSAFE_componentWillMount()</a></li>
-<li><a href="#4-render">4. render()</a></li>
-<li><a href="#5-componentwillreceivepropsunsafe_componentwillreceivepropsnextprops">5. componentWillReceiveProps()/UNSAFE_componentWillReceiveProps(nextProps)</a></li>
-<li><a href="#6-shouldcomponentupdatenextprops-nextstate">6. shouldComponentUpdate(nextProps, nextState)</a></li>
-<li><a href="#7unsafe_componentwillupdatenextprops-nextstate">7.UNSAFE_componentWillUpdate(nextProps, nextState)</a></li>
-<li><a href="#8getsnapshotbeforeupdate">8.getSnapshotBeforeUpdate()</a></li>
-<li><a href="#9componentdidupdateprevprops-prevstate-snapshot">9.componentDidUpdate(prevProps, prevState, snapshot)</a></li>
-<li><a href="#10componentwillunmount">10.componentWillUnmount()</a></li>
-<li><a href="#11componentdidcatcherror-info">11.componentDidCatch(error, info)</a></li>
-</ul>
-</li>
-<li><a href="#contextapi">ContextApi</a></li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-<h1 id="componentDidMount"><a href="#componentDidMount" class="headerlink" title="componentDidMount"></a>componentDidMount</h1><p>1 UI 渲染完成后调用</p>
-<p>2 只执行一次</p>
-<p>3 典型场景：获取外部资源</p>
-<hr>
-<h1 id="getDerivedStateFromProps-new"><a href="#getDerivedStateFromProps-new" class="headerlink" title="getDerivedStateFromProps() *new"></a>getDerivedStateFromProps() <font color="gree">*new</font></h1><p>1 党state需要从props初始化时使用</p>
-<p>2 尽量不要使用：维护两者状态一致性会增加复杂度</p>
-<p>3 每次render都会调用</p>
-<p>4 典型场景：表单控件获取默认值</p>
-<hr>
-<h1 id="getSnapshotBeforeUpdate-new"><a href="#getSnapshotBeforeUpdate-new" class="headerlink" title="getSnapshotBeforeUpdate() *new"></a>getSnapshotBeforeUpdate() <font color="gree">*new</font></h1><p>1 在页面render之前调用，state已更新</p>
-<p>2 典型场景：获取render 之前的DOM状态</p>
-<p>//todo 滚动条一直到底可以用这个方法实现</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/3790386-b0c8a024d0ae1f80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="http://upload-images.jianshu.io/upload_images/3790386-b0c8a024d0ae1f80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
-<h2 id="生命周期函数详解"><a href="#生命周期函数详解" class="headerlink" title="生命周期函数详解"></a>生命周期函数详解</h2><h3 id="1-constructor-props"><a href="#1-constructor-props" class="headerlink" title="1. constructor(props)"></a>1. constructor(props)</h3><p>react组件的构造函数在挂载之前被调用。在实现React.Component构造函数时，需要先在添加其他内容前，调用super(props)，用来将父组件传来的props绑定到这个类中，使用this.props将会得到。<br>官方建议不要在constructor引入任何具有副作用和订阅功能的代码，这些应当在componentDidMount()中写入。<br>constructor中应当做些初始化的动作，如：初始化state，将事件处理函数绑定到类实例上，但也不要使用setState()。如果没有必要初始化state或绑定方法，则不需要构造constructor，或者把这个组件换成纯函数写法。<br>当然也可以利用props初始化state，在之后修改state不会对props造成任何修改，但仍然建议大家提升状态到父组件中，或使用redux统一进行状态管理。</p>
-<pre><code>constructor(props) {
-  super(props);
-  this.state = {
-    color: props.initialColor
-  };
+        <h2 id="调用-setState-之后发生了什么？"><a href="#调用-setState-之后发生了什么？" class="headerlink" title="调用 setState 之后发生了什么？"></a>调用 setState 之后发生了什么？</h2><p>在代码中调用setState函数之后，React 会将传入的参数对象与组件当前的状态合并，然后触发所谓的调和过程（Reconciliation）。经过调和过程，React 会以相对高效的方式根据新的状态构建 React 元素树并且着手重新渲染整个UI界面。在 React 得到元素树之后，React 会自动计算出新的树与老树的节点差异，然后根据差异对界面进行最小化重渲染。在差异计算算法中，React 能够相对精确地知道哪些位置发生了改变以及应该如何改变，这就保证了按需更新，而不是全部重新渲染。</p>
+<h2 id="eact-中-Element-与-Component-的区别是？"><a href="#eact-中-Element-与-Component-的区别是？" class="headerlink" title="eact 中 Element 与 Component 的区别是？"></a>eact 中 Element 与 Component 的区别是？</h2><p>简单而言，React Element 是描述屏幕上所见内容的数据结构，是对于 UI 的对象表述。典型的 React Element 就是利用 JSX 构建的声明式代码片然后被转化为createElement的调用组合。而 React Component 则是可以接收参数输入并且返回某个 React Element 的函数或者类。更多介绍可以参考React Elements vs React Components。</p>
+<h2 id="在什么情况下你会优先选择使用-Class-Component-而不是-Functional-Component？"><a href="#在什么情况下你会优先选择使用-Class-Component-而不是-Functional-Component？" class="headerlink" title="在什么情况下你会优先选择使用 Class Component 而不是 Functional Component？"></a>在什么情况下你会优先选择使用 Class Component 而不是 Functional Component？</h2><p>在组件需要包含内部状态或者使用到生命周期函数的时候使用 Class Component ，否则使用函数式组件。</p>
+<h2 id="React-中-refs-的作用是什么？"><a href="#React-中-refs-的作用是什么？" class="headerlink" title="React 中 refs 的作用是什么？"></a>React 中 refs 的作用是什么？</h2><p>Refs 是 React 提供给我们的安全访问 DOM 元素或者某个组件实例的句柄。我们可以为元素添加ref属性然后在回调函数中接受该元素在 DOM 树中的句柄，该值会作为回调函数的第一个参数返回：</p>
+<pre><code>class CustomForm extends Component {
+  handleSubmit = () =&gt; {
+    console.log(&quot;Input Value: &quot;, this.input.value)
+  }
+  render () {
+    return (
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;input
+          type=&#39;text&#39;
+          ref={(input) =&gt; this.input = input} /&gt;
+        &lt;button type=&#39;submit&#39;&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+    )
+  }
 }
-</code></pre><h3 id="2-static-getDerivedStateFromProps-nextProps-prevState"><a href="#2-static-getDerivedStateFromProps-nextProps-prevState" class="headerlink" title="2. static getDerivedStateFromProps(nextProps, prevState)"></a>2. static getDerivedStateFromProps(nextProps, prevState)</h3><p>getDerivedStateFromProps在组件实例化后，和接受新的props后被调用。他返回一个对象来更新状态，或者返回null表示新的props不需要任何state的更新。<br>如果是由于父组件的props更改，所带来的重新渲染，也会触发此方法。<br>调用steState()不会触发getDerivedStateFromProps()。</p>
-<h3 id="3-componentWillMount-UNSAFE-componentWillMount"><a href="#3-componentWillMount-UNSAFE-componentWillMount" class="headerlink" title="3. componentWillMount() / UNSAFE_componentWillMount()"></a>3. componentWillMount() / UNSAFE_componentWillMount()</h3><p>componentWillMount()将在react未来版本中被弃用。UNSAFE_componentWillMount()在组件挂载前被调用，在这个方法中调用setState()不会起作用，是由于他在render()前被调用。<br>为了避免副作用和其他的订阅，官方都建议使用componentDidMount()代替。这个方法是用于在服务器渲染上的唯一方法。</p>
-<h3 id="4-render"><a href="#4-render" class="headerlink" title="4. render()"></a>4. render()</h3><p>render()方法是必需的。当他被调用时，他将计算this.props和this.state，并返回以下一种类型： </p>
-<ul>
-<li><ol>
-<li>React元素。通过jsx创建，既可以是dom元素，也可以是用户自定义的组件。 </li>
-</ol>
-</li>
-<li><ol start="2">
-<li>字符串或数字。他们将会以文本节点形式渲染到dom中。 </li>
-</ol>
-</li>
-<li><ol start="3">
-<li>Portals。react 16版本中提出的新的解决方案，可以使组件脱离父组件层级直接挂载在DOM树的任何位置。 </li>
-</ol>
-</li>
-<li><ol start="4">
-<li>null，什么也不渲染 </li>
-</ol>
-</li>
-<li><ol start="5">
-<li>布尔值。也是什么都不渲染，通常后跟组件进行判断。</li>
-</ol>
-</li>
-</ul>
-<p>当返回null,false,ReactDOM.findDOMNode(this)将会返回null，什么都不会渲染。</p>
-<p>render()方法必须是一个纯函数，他不应该改变state，也不能直接和浏览器进行交互，应该将事件放在其他生命周期函数中。<br>如果shouldComponentUpdate()返回false，render()不会被调用。</p>
-<ul>
-<li>Fragments<br>你也可以在render()中使用数组，如：(不要忘记给每个数组元素添加key，防止出现警告)<pre><code>render() {
-return [
-  &lt;li key=&quot;A&quot;&gt;First item&lt;/li&gt;,
-  &lt;li key=&quot;B&quot;&gt;Second item&lt;/li&gt;,
-  &lt;li key=&quot;C&quot;&gt;Third item&lt;/li&gt;,
-];
+</code></pre><p>上述代码中的input域包含了一个ref属性，该属性声明的回调函数会接收input对应的 DOM 元素，我们将其绑定到this指针以便在其他的类函数中使用。另外值得一提的是，refs 并不是类组件的专属，函数式组件同样能够利用闭包暂存其值：</p>
+<pre><code>function CustomForm ({handleSubmit}) {
+  let inputElement
+  return (
+    &lt;form onSubmit={() =&gt; handleSubmit(inputElement.value)}&gt;
+      &lt;input
+        type=&#39;text&#39;
+        ref={(input) =&gt; inputElement = input} /&gt;
+      &lt;button type=&#39;submit&#39;&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+  )
 }
-</code></pre>换一种写法，可以不写key（v16++）<pre><code>render() {
-return (
-  &lt;React.Fragment&gt;
-    &lt;li&gt;First item&lt;/li&gt;
-    &lt;li&gt;Second item&lt;/li&gt;
-    &lt;li&gt;Third item&lt;/li&gt;
-  &lt;/React.Fragment&gt;
-);
+</code></pre><h2 id="React-中-keys-的作用是什么？"><a href="#React-中-keys-的作用是什么？" class="headerlink" title="React 中 keys 的作用是什么？"></a>React 中 keys 的作用是什么？</h2><p>Keys 是 React 用于追踪哪些列表中元素被修改、被添加或者被移除的辅助标识。</p>
+<pre><code>render () {
+  return (
+    &lt;ul&gt;
+      {this.state.todoItems.map(({task, uid}) =&gt; {
+        return &lt;li key={uid}&gt;{task}&lt;/li&gt;
+      })}
+    &lt;/ul&gt;
+  )
 }
-</code></pre><h3 id="5-componentWillReceiveProps-UNSAFE-componentWillReceiveProps-nextProps"><a href="#5-componentWillReceiveProps-UNSAFE-componentWillReceiveProps-nextProps" class="headerlink" title="5. componentWillReceiveProps()/UNSAFE_componentWillReceiveProps(nextProps)"></a>5. componentWillReceiveProps()/UNSAFE_componentWillReceiveProps(nextProps)</h3></li>
-</ul>
-<p>官方建议使用getDerivedStateFromProps函数代替componentWillReceiveProps()。当组件挂载后，接收到新的props后会被调用。如果需要更新state来响应props的更改，则可以进行this.props和nextProps的比较，并在此方法中使用this.setState()。</p>
-<p>如果父组件会让这个组件重新渲染，即使props没有改变，也会调用这个方法。</p>
-<p>react不会在组件初始化props时调用这个方法。调用this.setState也不会触发。</p>
-<h3 id="6-shouldComponentUpdate-nextProps-nextState"><a href="#6-shouldComponentUpdate-nextProps-nextState" class="headerlink" title="6. shouldComponentUpdate(nextProps, nextState)"></a>6. shouldComponentUpdate(nextProps, nextState)</h3><p>调用shouldComponentUpdate使react知道，组件的输出是否受state和props的影响。默认每个状态的更改都会重新渲染，大多数情况下应该保持这个默认行为。</p>
-<p>在渲染新的props或state前，shouldComponentUpdate会被调用。默认为true。这个方法不会在初始化时被调用，也不会在forceUpdate()时被调用。返回false不会阻止子组件在state更改时重新渲染。</p>
-<p>如果shouldComponentUpdate()返回false，componentwillupdate,render和componentDidUpdate不会被调用。</p>
-<p>在未来版本，shouldComponentUpdate()将会作为一个提示而不是严格的指令，返回false仍然可能导致组件的重新渲染。</p>
-<p>官方并不建议在shouldComponentUpdate()中进行深度查询或使用JSON.stringify()，他效率非常低，并且损伤性能。</p>
-<h3 id="7-UNSAFE-componentWillUpdate-nextProps-nextState"><a href="#7-UNSAFE-componentWillUpdate-nextProps-nextState" class="headerlink" title="7.UNSAFE_componentWillUpdate(nextProps, nextState)"></a>7.UNSAFE_componentWillUpdate(nextProps, nextState)</h3><p>在渲染新的state或props时，UNSAFE_componentWillUpdate会被调用，将此作为在更新发生之前进行准备的机会。这个方法不会在初始化时被调用。</p>
-<p>不能在这里使用this.setState()，也不能做会触发视图更新的操作。如果需要更新state或props，调用getDerivedStateFromProps。</p>
-<h3 id="8-getSnapshotBeforeUpdate"><a href="#8-getSnapshotBeforeUpdate" class="headerlink" title="8.getSnapshotBeforeUpdate()"></a>8.getSnapshotBeforeUpdate()</h3><p>在react render()后的输出被渲染到DOM之前被调用。它使您的组件能够在它们被潜在更改之前捕获当前值（如滚动位置）。这个生命周期返回的任何值都将作为参数传递给componentDidUpdate（）。</p>
-<h3 id="9-componentDidUpdate-prevProps-prevState-snapshot"><a href="#9-componentDidUpdate-prevProps-prevState-snapshot" class="headerlink" title="9.componentDidUpdate(prevProps, prevState, snapshot)"></a>9.componentDidUpdate(prevProps, prevState, snapshot)</h3><p>在更新发生后立即调用componentDidUpdate()。此方法不用于初始渲染。当组件更新时，将此作为一个机会来操作DOM。只要您将当前的props与以前的props进行比较（例如，如果props没有改变，则可能不需要网络请求），这也是做网络请求的好地方。</p>
-<p>如果组件实现getSnapshotBeforeUpdate()生命周期，则它返回的值将作为第三个“快照”参数传递给componentDidUpdate()。否则，这个参数是undefined。</p>
-<h3 id="10-componentWillUnmount"><a href="#10-componentWillUnmount" class="headerlink" title="10.componentWillUnmount()"></a>10.componentWillUnmount()</h3><p>在组件被卸载并销毁之前立即被调用。在此方法中执行任何必要的清理，例如使定时器无效，取消网络请求或清理在componentDidMount（）中创建的任何监听。</p>
-<h3 id="11-componentDidCatch-error-info"><a href="#11-componentDidCatch-error-info" class="headerlink" title="11.componentDidCatch(error, info)"></a>11.componentDidCatch(error, info)</h3><p>错误边界是React组件，可以在其子组件树中的任何位置捕获JavaScript错误，记录这些错误并显示回退UI，而不是崩溃的组件树。错误边界在渲染期间，生命周期方法以及整个树下的构造函数中捕获错误。</p>
-<p>如果类组件定义了此生命周期方法，则它将成为错误边界。在它中调用setState()可以让你在下面的树中捕获未处理的JavaScript错误，并显示一个后备UI。只能使用错误边界从意外异常中恢复;不要试图将它们用于控制流程。<br>错误边界只会捕获树中下面组件中的错误。错误边界本身不能捕获错误。</p>
-<h2 id="ContextApi"><a href="#ContextApi" class="headerlink" title="ContextApi"></a>ContextApi</h2><p>一个全局数据源且其他组件可以直接获取/改变全局数据源中的数据.</p>
-<ul>
-<li>React.createContext 方法用于创建一个 Context 对象。该对象包含 Provider 和 Consumer两个属性，分别为两个 React 组件。</li>
-<li>Provider 组件。用在组件树中更外层的位置。它接受一个名为 value 的 prop，其值可以是任何 JavaScript 中的数据类型。</li>
-<li>Consumer 组件。可以在 Provider 组件内部的任何一层使用。它接收一个名为 children 值为一个函数的 prop。这个函数的参数是 Provider 组件接收的那个 value prop 的值，返回值是一个 React 元素（一段 JSX 代码）。</li>
-</ul>
-<p>现有 Context API 虽然使用起来不算复杂，但当和 shouldComponentUpdate 搭配使用时就很容易出问题.</p>
-<p>我们都知道在 React 中父子组件可以通过 props 自顶向下的传递数据。但是当组件深度嵌套时，从顶层组件向最内层组件传递数据就不那么方便了。手动在每一层组件上逐级传递 prop 不仅书写起来很繁琐同时还会为夹在中间的组件引入不必要的 prop。这时 Context API 就派上用场了。你只需要在外层组件上声明要传递给子组件的 Context</p>
-<p>首先创建一个context的实例</p>
-<pre><code>import React from &#39;react&#39;;
-import { render } from &quot;react-dom&quot;;
-const GlobalContext = React.createContext(&#39;dark&#39;);
-</code></pre><p>生成的context对象具有两个组件类对象</p>
-<pre><code>{
-  Provider: React.ComponentType&lt;{value: T}&gt;,
-  Consumer: React.ComponentType&lt;{children: (value: T)=&gt; React.ReactNode}&gt;
+</code></pre><p>在开发过程中，我们需要保证某个元素的 key 在其同级元素中具有唯一性。在 React Diff 算法中 React 会借助元素的 Key 值来判断该元素是新近创建的还是被移动而来的元素，从而减少不必要的元素重渲染。此外，React 还需要借助 Key 值来判断元素与本地状态的关联关系，因此我们绝不可忽视转换函数中 Key 的重要性。</p>
+<h2 id="如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？"><a href="#如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？" class="headerlink" title="如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？"></a>如果你创建了类似于下面的Twitter元素，那么它相关的类定义是啥样子的？</h2><pre><code>&lt;Twitter username=&#39;tylermcginnis33&#39;&gt;
+  {(user) =&gt; user === null
+    ? &lt;Loading /&gt;
+    : &lt;Badge info={user} /&gt;}
+&lt;/Twitter&gt;
+import React, { Component, PropTypes } from &#39;react&#39;
+import fetchUser from &#39;twitter&#39;
+// fetchUser take in a username returns a promise
+// which will resolve with that username&#39;s data.
+class Twitter extends Component {
+  // finish this
 }
-</code></pre><p>接下来创建Provider对象，该对象类似react-redux中的Provide对象</p>
-<pre><code>class GlobalContextProvider extends React.Component {
-  // 类似redux中的初始化状态
+</code></pre><p>如果你还不熟悉回调渲染模式（Render Callback Pattern），这个代码可能看起来有点怪。这种模式中，组件会接收某个函数作为其子组件，然后在渲染函数中以props.children进行调用：</p>
+<pre><code>import React, { Component, PropTypes } from &#39;react&#39;
+import fetchUser from &#39;twitter&#39;
+class Twitter extends Component {
   state = {
-    theme: &#39;dark&#39;
-  };
-
-  // 类似reducer
-  handleContextChange = action =&gt; {
-    switch (action.type) {
-      case &quot;UPDATE_THEME&quot;:
-        return this.setState({
-          theme: action.theme
-        });
-      default:
-        return;
-    }
-  };
-
-  render() {
-    return (
-      &lt;GlobalContext.Provider
-        value={{
-          dispatch: this.handleContextChange,
-          theme: this.state.theme
-        }}
-      &gt;
-        {this.props.children}
-      &lt;/GlobalContext.Provider&gt;
-    );
+    user: null,
+  }
+  static propTypes = {
+    username: PropTypes.string.isRequired,
+  }
+  componentDidMount () {
+    fetchUser(this.props.username)
+      .then((user) =&gt; this.setState({user}))
+  }
+  render () {
+    return this.props.children(this.state.user)
   }
 }
-</code></pre><p>接下来定义一个组件来改变state</p>
-<pre><code>const SubComponent = props =&gt; (
-  &lt;div&gt;
-    {/* 类似action，触发后改变状态 */}
-    &lt;button
-      onClick={() =&gt;
-        props.dispatch({
-          type: &quot;UPDATE_THEME&quot;,
-          theme: &quot;light&quot;
-        })
-      }
-    &gt;
-      change theme
-    &lt;/button&gt;
-    &lt;div&gt;{props.theme}&lt;/div&gt;
-  &lt;/div&gt;
-);
-</code></pre><p>最后利用到上述提到的Consumer对象加载状态并挂载到dom节点上</p>
-<pre><code>class App extends React.Component {
-  render() {
+</code></pre><p>这种模式的优势在于将父组件与子组件解耦和，父组件可以直接访问子组件的内部状态而不需要再通过Props传递，这样父组件能够更为方便地控制子组件展示的UI界面。譬如产品经理让我们将原本展示的Badge替换为Profile，我们可以轻易地修改下回调函数即可：</p>
+<twitter username="tylermcginnis33"><br>  {(user) =&gt; user === null<br>    ? <loading><br>    : <profile info="{user}">}<br></profile></loading></twitter>
+
+<h2 id="Controlled-Component-与-Uncontrolled-Component-之间的区别是什么？"><a href="#Controlled-Component-与-Uncontrolled-Component-之间的区别是什么？" class="headerlink" title="Controlled Component 与 Uncontrolled Component 之间的区别是什么？"></a>Controlled Component 与 Uncontrolled Component 之间的区别是什么？</h2><p>React 的核心组成之一就是能够维持内部状态的自治组件，不过当我们引入原生的HTML表单元素时（input,select,textarea 等），我们是否应该将所有的数据托管到 React 组件中还是将其仍然保留在 DOM 元素中呢？这个问题的答案就是受控组件与非受控组件的定义分割。受控组件（Controlled Component）代指那些交由 React 控制并且所有的表单数据统一存放的组件。譬如下面这段代码中username变量值并没有存放到DOM元素中，而是存放在组件状态数据中。任何时候我们需要改变username变量值时，我们应当调用setState函数进行修改。</p>
+<pre><code>class ControlledForm extends Component {
+  state = {
+    username: &#39;&#39;
+  }
+  updateUsername = (e) =&gt; {
+    this.setState({
+      username: e.target.value,
+    })
+  }
+  handleSubmit = () =&gt; {}
+  render () {
     return (
-      &lt;GlobalContextProvider&gt;
-        &lt;GlobalContext.Consumer&gt;
-          {context =&gt; (
-            &lt;SubComponent
-              theme={context.theme}
-              dispatch={context.dispatch}
-            /&gt;
-          )}
-        &lt;/GlobalContext.Consumer&gt;
-      &lt;/GlobalContextProvider&gt;
-    );
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;input
+          type=&#39;text&#39;
+          value={this.state.username}
+          onChange={this.updateUsername} /&gt;
+        &lt;button type=&#39;submit&#39;&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+    )
   }
 }
-
-render(&lt;App /&gt;, document.getElementById(&quot;root&quot;));
-</code></pre><p>参考<a href="https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b" target="_blank" rel="noopener">react 16.3 ContextApi</a></p>
-
+</code></pre><p>而非受控组件（Uncontrolled Component）则是由DOM存放表单数据，并非存放在 React 组件中。我们可以使用 refs 来操控DOM元素：</p>
+<pre><code>class UnControlledForm extends Component {
+  handleSubmit = () =&gt; {
+    console.log(&quot;Input Value: &quot;, this.input.value)
+  }
+  render () {
+    return (
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;input
+          type=&#39;text&#39;
+          ref={(input) =&gt; this.input = input} /&gt;
+        &lt;button type=&#39;submit&#39;&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+    )
+  }
+}
+</code></pre><p>竟然非受控组件看上去更好实现，我们可以直接从 DOM 中抓取数据，而不需要添加额外的代码。不过实际开发中我们并不提倡使用非受控组件，因为实际情况下我们需要更多的考虑表单验证、选择性的开启或者关闭按钮点击、强制输入格式等功能支持，而此时我们将数据托管到 React 中有助于我们更好地以声明式的方式完成这些功能。引入 React 或者其他 MVVM 框架最初的原因就是为了将我们从繁重的直接操作 DOM 中解放出来。</p>
+<h2 id="在生命周期中的哪一步你应该发起-AJAX-请求？"><a href="#在生命周期中的哪一步你应该发起-AJAX-请求？" class="headerlink" title="在生命周期中的哪一步你应该发起 AJAX 请求？"></a>在生命周期中的哪一步你应该发起 AJAX 请求？</h2><p>我们应当将AJAX 请求放到 componentDidMount 函数中执行，主要原因有下：</p>
+<ul>
+<li><p>React 下一代调和算法 Fiber 会通过开始或停止渲染的方式优化应用性能，其会影响到 componentWillMount 的触发次数。对于 componentWillMount 这个生命周期函数的调用次数会变得不确定，React 可能会多次频繁调用 componentWillMount。如果我们将 AJAX 请求放到 componentWillMount 函数中，那么显而易见其会被触发多次，自然也就不是好的选择。</p>
+</li>
+<li><p>如果我们将 AJAX 请求放置在生命周期的其他函数中，我们并不能保证请求仅在组件挂载完毕后才会要求响应。如果我们的数据请求在组件挂载之前就完成，并且调用了setState函数将数据添加到组件状态中，对于未挂载的组件则会报错。而在 componentDidMount 函数中进行 AJAX 请求则能有效避免这个问题。</p>
+</li>
+</ul>
+<h2 id="shouldComponentUpdate-的作用是啥以及为何它这么重要？"><a href="#shouldComponentUpdate-的作用是啥以及为何它这么重要？" class="headerlink" title="shouldComponentUpdate 的作用是啥以及为何它这么重要？"></a>shouldComponentUpdate 的作用是啥以及为何它这么重要？</h2><p>shouldComponentUpdate 允许我们手动地判断是否要进行组件更新，根据组件的应用场景设置函数的合理返回值能够帮我们避免不必要的更新。</p>
+<h2 id="如何告诉-React-它应该编译生产环境版本？"><a href="#如何告诉-React-它应该编译生产环境版本？" class="headerlink" title="如何告诉 React 它应该编译生产环境版本？"></a>如何告诉 React 它应该编译生产环境版本？</h2><p>通常情况下我们会使用 Webpack 的 DefinePlugin 方法来将 NODE_ENV 变量值设置为 production。编译版本中 React 会忽略 propType 验证以及其他的告警信息，同时还会降低代码库的大小，React 使用了 Uglify 插件来移除生产环境下不必要的注释等信息。</p>
+<p>为什么我们需要使用 React 提供的 Children API 而不是 JavaScript 的 map？<br>props.children并不一定是数组类型，譬如下面这个元素：</p>
+<p><parent><br>  <h1>Welcome.</h1><br></parent><br>如果我们使用props.children.map函数来遍历时会受到异常提示，因为在这种情况下props.children是对象（object）而不是数组（array）。React 当且仅当超过一个子元素的情况下会将props.children设置为数组，就像下面这个代码片：</p>
+<pre><code>&lt;Parent&gt;
+  &lt;h1&gt;Welcome.&lt;/h1&gt;
+  &lt;h2&gt;props.children will now be an array&lt;/h2&gt;
+&lt;/Parent&gt;
+</code></pre><p>这也就是我们优先选择使用React.Children.map函数的原因，其已经将props.children不同类型的情况考虑在内了。</p>
+<h2 id="概述下-React-中的事件处理逻辑"><a href="#概述下-React-中的事件处理逻辑" class="headerlink" title="概述下 React 中的事件处理逻辑"></a>概述下 React 中的事件处理逻辑</h2><p>为了解决跨浏览器兼容性问题，React 会将浏览器原生事件（Browser Native Event）封装为合成事件（SyntheticEvent）传入设置的事件处理器中。这里的合成事件提供了与原生事件相同的接口，不过它们屏蔽了底层浏览器的细节差异，保证了行为的一致性。另外有意思的是，React 并没有直接将事件附着到子元素上，而是以单一事件监听器的方式将所有的事件发送到顶层进行处理。这样 React 在更新 DOM 的时候就不需要考虑如何去处理附着在 DOM 上的事件监听器，最终达到优化性能的目的。</p>
+<h2 id="createElement-与-cloneElement-的区别是什么？"><a href="#createElement-与-cloneElement-的区别是什么？" class="headerlink" title="createElement 与 cloneElement 的区别是什么？"></a>createElement 与 cloneElement 的区别是什么？</h2><p>createElement 函数是 JSX 编译之后使用的创建 React Element 的函数，而 cloneElement 则是用于复制某个元素并传入新的 Props。</p>
+<h2 id="传入-setState-函数的第二个参数的作用是什么？"><a href="#传入-setState-函数的第二个参数的作用是什么？" class="headerlink" title="传入 setState 函数的第二个参数的作用是什么？"></a>传入 setState 函数的第二个参数的作用是什么？</h2><p>该函数会在setState函数调用完成并且组件开始重渲染的时候被调用，我们可以用该函数来监听渲染是否完成：</p>
+<pre><code>this.setState(
+  { username: &#39;tylermcginnis33&#39; },
+  () =&gt; console.log(&#39;setState has finished and the component has re-rendered.&#39;)
+)
+</code></pre><h2 id="下述代码有错吗？"><a href="#下述代码有错吗？" class="headerlink" title="下述代码有错吗？"></a>下述代码有错吗？</h2><pre><code>this.setState((prevState, props) =&gt; {
+  return {
+    streak: prevState.streak + props.count
+  }
+})
+</code></pre>
         
     
 
@@ -681,21 +631,13 @@ render(&lt;App /&gt;, document.getElementById(&quot;root&quot;));
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/Max.github.io/2018/08/04/react-HOC-高阶组件/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/Max.github.io/2018/07/19/flutter-windows-安装配置-vscode/" id="post_nav-older" class="next-content">
+        <a href="/Max.github.io/2018/08/05/react脚手架工具/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
